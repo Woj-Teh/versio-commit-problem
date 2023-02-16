@@ -1,0 +1,15 @@
+options:
+  prev_tag: "versio-prev"
+
+projects:
+  - name: "versio-commit-problem"
+    id: 1
+    tag_prefix: ""
+    labels: mvn
+    version:
+      file: "pom.xml"
+      xml: "project.version"
+
+sizes:
+  use_angular: true
+  fail: ["*"]
